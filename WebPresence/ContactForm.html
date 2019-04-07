@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<title>ContactForm </title>
+<head>
+
+
+<style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial;
+      padding: 1px;
+      background: white;
+      background-image: url(../Pictures/background.png);
+    
+    }
+    
+.header {
+  padding: 1px;
+  text-align: center;
+  background: lightblue;
+  color: white;
+}
+.header h1 {
+  font-size: 50px;
+}
+.column {
+  float: left;
+  
+}
+
+.left {
+  width: 25%;
+}
+.right {
+  width: 75%;
+}
+  
+
+.topnav {
+  overflow: hidden;
+  background-color: lightblue;
+    margin-top: 10px;
+    margin-bottom: 10px;          
+}
+
+.topnav a {
+  color: white;
+  text-align: center ;
+  padding: 14px 16px;
+  text-decoration:none;
+  font-size: 30px; 
+}
+
+.topnav a:hover {
+  background-color: pink;
+  color: gray;
+}
+.topnav a:visited {
+  background-color: gray;
+  color: white;
+}
+
+.middlenav a {
+  float: center;
+  display: block;
+  color: white;
+  text-align: center ;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.middlenav a:hover {
+  background-color: pink;
+  color: gray;
+}
+.middlenav a:visited {
+  background-color: gray;
+  color: white;
+}
+
+.middlecolumn {   
+  float: left;
+  width: 75;
+}
+
+.rightcolumn {
+  float: left;
+  width: 24.3%;
+  margin-top: 10px; 
+  
+}
+.img {
+	max-width: 100%;
+    max-height: 100%;
+}
+
+.test { 
+	width: 100%;
+	height: auto;
+  
+}
+
+.card {
+  background-color: lightblue;
+  padding: 5px;
+      margin-bottom: 10px;
+    
+ background-image: linear-gradient(to bottom, white, lightblue); 
+}
+
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  font-size:10px;
+  text-align: center;  
+  margin-top: 5px;
+    background-image: linear-gradient(to bottom, white, lightblue);    
+}
+
+
+
+</style>
+
+</head>
+
+
+<body>
+
+<div class="header noprint">
+  <h1>Contact Form</h1>
+</div>
+<center>
+<div class="topnav a noprint">
+  <a href="../WebPresence/home.html">Home</a> 
+  <a href="../WebPresence/resume.html">Resume</a>
+  <a href="../WebPresence/projects.html">Projects</a>
+  <a href="../WebPresence/schedule.html">Schedule</a> 
+  <a href="../WebPresence/contact.html">Contact</a> 
+  <a href="../WebPresence/past.html">Past</a>
+  <a href="../WebPresence/present.html">Present</a>
+  <a href="../WebPresence/future.html">Future</a>
+</div>
+</center>
+
+<div class="row ">
+    <div class="column center ">
+    <div class="card2 ">       
+    </div>
+    </div>
+</div>
+
+            
+              <div class="row">
+                <div class="column right">
+                  <div class="card">
+                  <center><h1 >Contact Me</h1> </center>
+              <form id="wrapper" style="background-color:white;height:300px;width:75%;border:1px solid #ccc;padding:10px;" method="post" 			action="http://webdevbasics.net/scripts/demo.php">
+              <label>First Name: <input type="text" name="fname" id="fname" required="fname"></label><br><br>
+              <label>Last Name: <input type="text" name="lname" id="lname" required="lname"></label><br><br>
+              <label>E-mail: <input type="text" name="email" id="email" required="email"></label><br><br>
+              <label for="comments">Comments:</label><br>
+              <textarea name="comments" id="comments" rows="4" cols="40"></textarea><br><br>
+              <input type="submit" value="Contact"> <input type="reset">
+              </form>
+              
+                  </div>
+               
+                  </div>
+                </div>
+                
+              </div>
+              <div class="footer">
+                    <h2><i>If you have any quesion please contact me</i></h2>
+               </div>
+        </body>
+        </html>
+                

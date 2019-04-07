@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<title>Resume </title>
+<head>
+
+
+<style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial;
+      padding: 1px;
+      background: white;
+      background-image: url(../Pictures/background.png);
+    
+    }
+    
+.header {
+  padding: 1px;
+  text-align: center;
+  background: lightblue;
+  color: white;
+}
+.header h1 {
+  font-size: 50px;
+}
+.column {
+  float: left;
+  
+}
+
+
+.left {
+  width: 25%;
+}
+.right {
+  width: 75%;
+}  
+
+.topnav {
+  overflow: hidden;
+  background-color: lightblue;
+    margin-top: 10px;
+    margin-bottom: 10px;          
+}
+
+.topnav a {
+  color: white;
+  text-align: center ;
+  padding: 14px 16px;
+  text-decoration:none;
+  font-size: 30px; 
+}
+
+.topnav a:hover {
+  background-color: pink;
+  color: gray;
+}
+.topnav a:visited {
+  background-color: gray;
+  color: white;
+}
+
+.middlenav a {
+  float: center;
+  display: block;
+  color: white;
+  text-align: center ;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.middlenav a:hover {
+  background-color: pink;
+  color: gray;
+}
+.middlenav a:visited {
+  background-color: gray;
+  color: white;
+}
+
+.middlecolumn {   
+  float: left;
+  width: 75;
+}
+
+.rightcolumn {
+  float: left;
+  width: 24.3%;
+  margin-top: 10px; 
+  
+}
+.img {
+	max-width: 100%;
+    max-height: 100%;
+}
+
+.test { 
+	width: 100%;
+	height: auto;
+  
+}
+
+.card {
+  background-color: lightblue;
+  padding: 5px;
+      margin-bottom: 10px;
+    
+ background-image: linear-gradient(to bottom, white, lightblue); 
+}
+
+.card2 {  background-color: white;
+  padding: 5px;
+	 margin-bottom: 10px; 
+ background-image: linear-gradient(to bottom, white, lightblue);
+margin-right: 10px;
+  }
+  
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  font-size:10px;
+  text-align: center;  
+  margin-top: 5px;
+    background-image: linear-gradient(to bottom, white, lightblue);    
+}
+
+#wrapper { 
+           width: 75%;
+		   margin: auto;
+}
+#print-button {
+	display: none;
+	
+}
+@media print
+{
+.noprint {display:none;}
+}
+@media screen
+{
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<div class="header noprint">
+  <h1>Guojing Chen's Resume</h1>
+</div>
+<center>
+<div class="topnav a noprint">
+
+  <a href="../WebPresence/past.html">Past</a>
+  <a href="../WebPresence/present.html">Present</a>
+  <a href="../WebPresence/future.html">Future</a>
+
+</div>
+</center>
+<div class="row ">
+    <div class="column left noprint ">
+    <div class="card2 ">
+        
+        <div class="middlenav a ">
+          	<a href="../WebPresence/home.html">Home</a> 
+  			<a href="../WebPresence/resume.html">Resume</a>
+  			<a href="../WebPresence/projects.html">Projects</a>
+  			<a href="../WebPresence/schedule.html">Schedule</a> 
+  			<a href="../WebPresence/contact.html">Contact</a>  
+          </div>
+          
+     </div>
+        
+        <div class="card2 ">
+          <center> <p id="Print"> Click Here to Print My Resume </p> </center>
+        <center> <div class="test noprint"><a href="javascript:window.print()"><img style="width:100%;height:200px;" src="../Pictures/printer.png"></a></div> </center>
+        </div>
+        
+        <div class="card2 ">
+            <center> <p id="Download"> Click Here to Download My Resume </p> </center>
+        <center> <div class="test "> <a href="../Assets/Resume.docx"> <img style="width:100%;height:300px;"src="../Pictures/download.jpeg"> </a></div> </center>
+        </div>
+        
+</div>
+
+
+    
+    <div class="row ">
+      <div class="column right">
+        <div class="card">
+            <div  id="wrapper" style="background-color:white;height:100%;width:75%;">
+            
+                <p style="text-align: center;"><strong> <center>GUOJING CHEN </center></strong></p> 
+               <p style="text-align: center;">812 Greenbrier Road Apartment B, DeKalb, Illinois, 60115 United States</p>
+               <p style="text-align: center;">(815)901-6217<a href="https://outlook.office.com"> guojing.chen405@outlook.com</a></p>
+               <p style="text-align: center;"><a href="https://www.linkedin.com/in/guojing-amy-chen-baa91b119/">
+               		https://www.linkedin.com/in/guojing-amy-chen-baa91b119/</a></p>
+                    
+               <p><strong>EDUCATION</strong></p>
+               <p><strong>Bachelor of Science in Operations and Information Management</strong>, Aug 2016 – May 2019</p>
+               <p>Northern Illinois University, Dekalb, IL</p>
+               
+               <p>Major: Information Systems</p>  
+               <p><strong>Associates of Hotel Management in Tourism and Hospitality Management</strong>, Sep 2009 – Jun 2012</p>
+               <p>Hubei Polytechnic Institute</p>
+               <p>Major: Hotel Management</p>     
+				
+               <p><strong>COMPUTER SKILLS</strong></p>
+               <p><strong>Programming Languages</strong>:C++, python</p>
+               <p><strong>Pseudo Programming Languages</strong>: HTML/CSS, Oracle, Microsoft Access (SQL), MS SQL 2014, MySQL</p>
+               <p><strong>Applications</strong>: Microsoft Excel, Microsoft Powerpoint, Microsoft Access, Microsoft Project, Microsoft Visio, SAP BW, SAP Crystal Report, SAP Predictive Analytics, V-lookup, Sensitivity and Forecasting Analysis, Wireshark</p>
+               
+               <p><strong>WORK EXPERIENCE</strong></p>
+               <p><strong>HR Supervisor, </strong>Beijing Huaqing Chiang Mai Holding (Group) Co., Ltd, July 2013 – June 2016</p>
+               <ul>
+               <li>Assisted the HR director in the department system construction, work plan, budget preparation, and organize the implementation, then draft organizational structure improvement plan.</li>
+               <li>Responded to the establishment of staff performance management and administration of the company. </li>
+               </ul>
+               
+               <p><strong>Administrative Staff, </strong>JW Marriott Hotel Beijing, June 2012 – June 2013 	</p>       
+               <ul>
+               <li>Managed reservations system and generate clients by learning from their profiles like records of preferences, and habits before they come, then informed customers about payment methods and verified their credit card data.</li>
+               <li>Created and analyze customers’ information like contact details, special interests, perspectives and so on in order to give them more customized service.Responded to clients’ complaints in a timely and professional manner.</li>
+               </ul>
+               
+               <p><strong>ACTIVITIES</strong></p>
+               <ul>
+               <li><strong>Honor Students</strong>, Northern Illinois University Honors Program, Jan 2017 – Present                                               </li>
+               <li><strong>SI Leader</strong>, Supplemental Instruction (SI) of ACCESS, NIU, Sep 2017 – Present</li>	
+               <li><strong>Mentor</strong>, Asian American Resource Center, NIU, Dec 2017 – Present</li>
+               <li><strong>Chinese Teacher</strong>, Asian American Resource Center, NIU, Dec 2017 – Present</li>
+               </ul>
+                   </div>
+                </div>
+                   </div>
+                 </div>
+                 
+               </div>
+ 
+ 
+
+<div class="footer noprint">
+    <h2><i> If you have any question please contact me</i></h2>
+  </div>
+  
+  </body>
+  
+  </html>

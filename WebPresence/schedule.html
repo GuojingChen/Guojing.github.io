@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<title>scheduel</title>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+  padding: 1px;
+  background:white;	
+  background-image: url(../Pictures/background.png);
+}
+.header {
+  padding: 0.5px;
+  text-align: center;
+  background:lightblue;
+  border: 1px;	 
+      color: white;
+}
+.header h1 {
+  font-size: 50px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: lightblue;  	
+    margin-top: 10px;    
+}
+.topnav a {
+ float: left;
+  display: block;
+  color: white;
+  text-align: center ;
+  text-decoration:none;
+  padding: 14px 16px;
+  font-size: 30px;  
+}
+.topnav a:hover {
+  background-color: pink;
+  color: gray;
+}
+.topnav a:visited {
+  background-color:gray;
+  color: white;
+}
+.middlenav a {
+  float: center;
+  display: block;
+  color: white;
+  text-align: center ;
+  padding: 14px 16px;
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+
+.middlenav a:hover {
+  background-color:pink;
+  color: gray;
+}
+.middlenav a:visited {
+  background-color: gray;
+  color: white;
+}
+
+.poopycolumn {   
+  float: left;
+  width: 48%;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.middlecolumn {   
+  float: left;
+  width: 24.5%;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.rightcolumn {
+  float: right;
+  width: 24.5%;
+  margin-top: 10px;  
+}
+
+.fakeimg {
+  background-color: #aaa;
+  height: auto;
+  padding: 10px;
+}
+.img {
+	max-width: 100%;
+    max-height: 100%;
+}
+.test { 
+	width: 100%;
+	height: auto;
+  
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 10px;
+  background-image: linear-gradient(to bottom, white, lightblue);
+ 
+}
+.card2 {  
+ background-color: white;
+ padding: 5px;
+ margin-bottom: 10px; 
+ background-image: linear-gradient(to bottom, white, lightblue);
+  }
+  
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  font-size:10px;
+  text-align: center;
+  margin-top: 60px;
+  background-image: linear-gradient(to bottom, white, lightblue);    
+}
+
+@media only screen and (max-width: 1080px) {
+  .poopycolumn, .middlecolumn, .rightcolumn {  font-size:30px; 
+    width: 100%;
+    padding: 20;
+  }
+  .topnav a { font-size: 120px; 
+		text-align: center;		
+}
+
+@media only screen and (max-width: 768px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+  
+</style>
+</head>
+
+
+<body>
+
+<div class="header">
+<h1>Guojing Chen's Projects</h1>
+</div>
+
+<center>
+<div class="topnav a">
+  <a href="../WebPresence/home.html">Home</a> 
+  <a href="../WebPresence/resume.html">Resume</a>
+  <a href="../WebPresence/projects.html">Projects</a>
+  <a href="../WebPresence/schedule.html">Schedule</a> 
+  <a href="../WebPresence/past.html">Past</a>
+  <a href="../WebPresence/present.html">Present</a>
+  <a href="../WebPresence/future.html">Future</a>
+  <a href="../WebPresence/location.html">Location</a> 
+  <a href="../WebPresence/contact.html">Contact</a>   
+</div>
+
+
+    
+<div class="row ">
+      <div class="column right">
+        <div class="card">
+                     
+        <table id="text">
+    <tr>
+      <th>Time</th>
+  	  <th>Monday</th>
+      <th>Tuesday</th>
+      <th>Wednesday</th>
+      <th>Thursday</th>
+      <th>Friday</th>
+    </tr>
+         <tr>
+       <td>08:00 AM</td>
+       <td><td rowspan="1" style="background-color:green;color:white;">OMIS 468 - 8:00AM-9:15PM</td></td>
+       <td><td rowspan="1" style="background-color:green;color:white;">OMIS 468 - 8:00AM-9:15PM</td></td>
+       <td> </td>
+       
+    <tr>
+      <td>09:00 AM</td>
+      <td></td>
+      <td></td>
+      <td></td>	
+      <td></td>
+
+  
+  
+    </tr>
+    
+     <tr>
+        <td>10:00 AM</td>
+       <td rowspan="1" style="background-color:green;color:white;">MATH 109 - 10:00AM-10:50AM</td>
+     <td></td>
+       <td rowspan="1" style="background-color:green;color:white;">MATH 109 - 10:00AM-10:50AM</td>	
+       <td></td>
+       <td rowspan="1" style="background-color:green;color:white;">MATH 109 - 10:00AM-10:50AM</td>	
+     </tr>
+    
+    <tr>
+        <td>11:00 AM</td>
+        <td rowspan="1" style="background-color:green;color:white;">OMIS 455 - 11:30PM-12:15PM</td>
+       
+      
+     </td>	
+       <td> <td rowspan="1" style="background-color:green;color:white;">OMIS 455 - 11:30PM-12:15PM</td></td>
+     </tr>
+     
+     <tr>
+        <td>12:00 PM</td>
+       <td rowspan="1" style="background-color:green;color:white;">OMIS 460 - 12:30PM-1:45PM</td>
+     <td></td>
+       <td rowspan="1" style="background-color:green;color:white;">OMIS 460 - 12:30PM-1:45PM</td>	
+       <td></td>
+     </tr>
+     
+     <tr>
+        <td>01:00 PM</td>
+       <td rowspan="1" style="background-color:green;color:white;">OMIS 444 - 2:0PM-3:15PM</td>
+     <td></td>
+       <td rowspan="1" style="background-color:green;color:white;">OMIS 444 - 2:00PM-3:15PM</td>	
+       <td></td>
+     </tr>	
+       
+       <tr>
+ 		<td>02:00 PM</td> 
+       <td><td style="background-color:green;color:white;">KNPE 399 - 2:00AM-3:15PM</td> </td>
+       <td><td style="background-color:green;color:white;">KNPE 399 - 2:00AM-3:15PM</td></td>
+       <td></td>   
+     </tr>
+     
+       <tr>
+ 		<td>03:00 PM</td> 
+       <td><td style="background-color:green;color:white;">OMIS 475 - 3:30AM-4:45PM</td> </td>
+       <td><td style="background-color:green;color:white;">OMIS 475 - 3:30AM-4:45PM</td></td>
+       <td></td>   
+     </tr>
+     
+     <tr>
+     <tr>
+       <td>04:00 PM</td>
+       <td></td>
+   
+           <tr>
+       <td>5:00 PM</td>
+       <td></td>
+     <td></td>
+       <td></td>
+     </tr>
+   </table>
+       </div>
+    
+       </div>
+     </div>
+     
+   </div>
+                  
+
+<div class="footer">
+  <h2> <i> If you have any question please contact me  </i></h2>
+</div>
+
+
+</body>
+</html>
